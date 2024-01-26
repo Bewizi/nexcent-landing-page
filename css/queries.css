@@ -1,0 +1,339 @@
+@media (max-width: 76em) {
+  html {
+    font-size: 56.2%;
+  }
+
+  .achievement--header {
+    font-size: 2.4rem;
+    width: 64%;
+  }
+
+  /* 
+  ***************
+  COMMUNITY SECTION
+  ***************
+  */
+  .community-update {
+    gap: 0;
+  }
+
+  .community-img {
+    width: 90%;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .update-text {
+    width: 90%;
+  }
+
+  .update-text-3 {
+    width: 90%;
+  }
+
+  .logo-col {
+    margin-left: 4.5rem;
+  }
+}
+
+@media (max-width: 69em) {
+  html {
+    font-size: 50%;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+  .nav-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+  }
+
+  .list-link {
+    flex-direction: column;
+  }
+
+  .list-link,
+  links:last-child {
+    margin-bottom: 6.4rem;
+  }
+
+  .header-tertiary {
+    font-size: 2.2rem;
+  }
+  .hero-container {
+    padding: 0 8rem;
+    gap: 9.6rem;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    font-size: 1.8rem;
+  }
+
+  .hero-content-text,
+  .hero-box-img {
+    text-align: center;
+  }
+
+  /* 
+  ***************
+  CLIENTS SECTION
+  ***************
+  */
+
+  .clients-text {
+    font-size: 1.6em;
+  }
+
+  .clients-logo {
+    justify-content: space-evenly;
+  }
+
+  /* 
+  ***************
+  COMMUNITY SYSTEM SECTION
+  ***************
+  */
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    row-gap: 4.6rem;
+  }
+
+  .community-text {
+    font-size: 1.8rem;
+  }
+
+  .community-txt {
+    width: 50%;
+    font-size: 1.8rem;
+  }
+
+  /* 
+  ***************
+  UNLOCK SECTION
+  ***************
+  */
+
+  .unlock-section {
+    padding: 9.6rem 4.8rem;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .illustration-unlock-image,
+  .unlock-text-content {
+    text-align: center;
+  }
+
+  .unlock-text-content {
+    align-items: center;
+  }
+  .unlock-description {
+    margin-left: 4rem;
+    font-size: 1.8rem;
+  }
+
+  /* 
+  ***************
+  ACHIEVEMENT SECTION
+  ***************
+  */
+  .achievement--content {
+    margin-left: 0;
+  }
+
+  .achievement--header {
+    width: 64%;
+  }
+
+  .achievement-description {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  /* 
+  ***************
+  CALENDER SECTION
+  ***************
+  */
+
+  .calender-img,
+  .calendar-content {
+    text-align: center;
+  }
+  .calendar-content {
+    align-items: center;
+  }
+
+  /* 
+  ***************
+  CUSTOMERS SECTION
+  ***************
+  */
+  .tesla-img,
+  .customers-content {
+    text-align: center;
+  }
+
+  .customers-name-company {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .update-text {
+    font-size: 1.6rem;
+  }
+
+  .update-text-3 {
+    width: 85%;
+  }
+}
+
+@media (max-width: 32em) {
+  .grid-2-cols {
+    grid-template-columns: 100%;
+  }
+
+  .header-primary {
+    font-size: 3.2rem;
+  }
+
+  .header-secondary {
+    font-size: 2.2rem;
+  }
+
+  .header-logo {
+    width: 5%;
+  }
+
+  .hero-text {
+    font-size: 1.4rem;
+  }
+
+  img{
+    width: 90%;
+  }
+
+
+  .community-primary-header {
+    width: 80%;
+  }
+
+  /* 
+  ***************
+  ACHIEVEMENT SECTION
+  ***************
+  */
+  .achievement-section{
+    padding: 9.6rem 0;
+  }
+  .achievement-2-grid-col {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement--content {
+    text-align: center;
+  }
+
+  .achievement--header {
+    width: 100%;
+  }
+
+  /* 
+  ***************
+  UNLOCK SECTION
+  ***************
+  */
+
+  .unlock-section {
+    padding: 9.6rem 0;
+  }
+
+  .achievement--grid{
+    margin-left: 1.5rem;
+  }
+
+  .illustration--image {
+    width: 90%;
+  }
+
+  .unlock-description {
+    font-size: 1.4rem;
+  }
+
+  .click{
+    font-size: 1rem;
+  }
+
+  .customers-message {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 2rem;
+    width: 100%;
+  }
+  .community-update{
+    flex-direction: column;
+    margin-left: 5rem;
+    
+  }
+
+  .community-description {
+    width: 85%;
+    font-size: 1em;
+  }
+
+  .margin-rm{
+    margin-left: 0;
+  }
+
+  .margin-lf {
+    margin-right: 0;
+  }
+  .footer--logo{
+    width: 15%;
+  }
+
+  .footer-primary--header{
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+
+  .grid-footer-cols{
+    grid-template-columns: 25em;
+    row-gap: 4.2rem;
+  }
+
+  .logo,.copyright{
+    width: 100%;
+  }
+
+  .logo,.copyright,.social{
+    grid-column: span 2;
+  }
+
+  .nav--footer{
+    grid-row: 1;
+    grid-column: span 1;
+  }
+
+  .nav-lf{
+    margin-left: 5rem;
+  }
+}

@@ -1,0 +1,76 @@
+/* 
+-Font Size
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif&family=Prompt&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  color: #555;
+  overflow-x: hidden;
+
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4.2rem;
+}
+
+.header-secondary {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-bottom: 2.4rem;
+}
+
+/* LINKS */
+.btn:link,
+.btn:visited {
+  background-color: #4caf4f;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #449e47;
+  color: #fff;
+}
+
+.login:link,.login:visited{
+  background: none;
+  color: #449e47;
+}
+.login:hover,.login:active{
+  background: #4caf4f;
+  color: #fff;
+}
+
